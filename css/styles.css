@@ -1,8 +1,14 @@
 :root {
     --main-text-color: #212121;
-    --contacts-color: #757575;
-    --accent-color: #2196F3;
+    --secondary-text-color: #757575;
+
     --main-background-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+
+    --header-logo-color:#000000;
+    --footer-logo-color: #FFFFFF;
+
+    --accent-color: #2196F3;
 }
 
 .body {
@@ -12,3 +18,133 @@
     font-family: Roboto, sans-serif;
 }
 
+.accent {
+    color: var(--accent-color);
+}
+
+
+
+.header-logo {
+    color: var(--header-logo-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: var(--accent-color);
+}
+
+.contacts-item {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+    color: var(--main-background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    color: var(--main-background-color);
+    background-color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.features-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-list-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-employee {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-employee-post {
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background-color: var(--secondary-background-color);
+    color: var(--main-background-color);
+}
+
+.footer-logo {
+    color: var(--footer-logo-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.address-item {
+    color: var(--secondary-text-color);
+}

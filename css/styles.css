@@ -2,8 +2,10 @@
     --main-text-color: #212121;
     --secondary-text-color: #757575;
 
-    --main-background-color: #FFFFFF;
+    --white-color: #FFFFFF;
     --secondary-background-color: #2F303A;
+    --description-background-color: #F5F5F5;
+    --team-background-color: #F5F4FA;
 
     --header-logo-color:#000000;
     --footer-logo-color: #FFFFFF;
@@ -12,14 +14,16 @@
 }
 
 .body {
-    background-color: var(--main-background-color);
     color: var(--main-text-color);
-
     font-family: Roboto, sans-serif;
 }
 
 .accent {
     color: var(--accent-color);
+}
+
+.header {
+    background-color: var(--white-color);
 }
 
 
@@ -33,12 +37,12 @@
     letter-spacing: 0.03em;
 }
 
-.nav {
+ .nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
+ }
 
 .nav-list-item:hover,
 .nav-list-item:focus {
@@ -63,7 +67,7 @@
 }
 
 .hero-title {
-    color: var(--main-background-color);
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -73,13 +77,22 @@
 }
 
 .hero-button {
-    color: var(--main-background-color);
+    color: var(--white-color);
     background-color: var(--accent-color);
 
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+}
+
+.features,
+.services {
+    background-color: var(--description-background-color);
+}
+
+.features-title {
+    opacity: 0;
 }
 
 .features-list-title {
@@ -104,6 +117,10 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.team {
+    background-color: var(--team-background-color);
 }
 
 .team-title {
@@ -134,7 +151,7 @@
 
 .footer {
     background-color: var(--secondary-background-color);
-    color: var(--main-background-color);
+    color: var(--white-color);
 }
 
 .footer-logo {
@@ -145,6 +162,21 @@
     letter-spacing: 0.03em;
 }
 
-.address-item {
-    color: var(--secondary-text-color);
+
+.address {
+    font-style: normal;
 }
+.address-location {
+    color: var(--main-background-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+

@@ -16,6 +16,7 @@
 .body {
     color: var(--main-text-color);
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .accent {
@@ -24,9 +25,9 @@
 
 .header {
     background-color: var(--white-color);
+    letter-spacing: 0.02em;
+
 }
-
-
 
 .header-logo {
     color: var(--header-logo-color);
@@ -35,13 +36,19 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
- .nav {
+.nav-list {
+    list-style: none;
+}
+
+ .nav-list-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
+    text-decoration: none;
+   
  }
 
 .nav-list-item:hover,
@@ -49,12 +56,16 @@
     color: var(--accent-color);
 }
 
+.contacts {
+    list-style: none;
+}
+
 .contacts-item {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts-item:hover,
@@ -64,6 +75,7 @@
 
 .hero {
     background-color: var(--secondary-background-color);
+    letter-spacing: 0.06em;
 }
 
 .hero-title {
@@ -72,7 +84,6 @@
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
@@ -91,6 +102,10 @@
     background-color: var(--description-background-color);
 }
 
+.features-list {
+    list-style: none;
+}
+
 .features-title {
     opacity: 0;
 }
@@ -99,7 +114,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -108,7 +122,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .services-title {
@@ -116,7 +129,10 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
+}
+
+.services-list {
+    list-style: none;
 }
 
 .team {
@@ -128,7 +144,10 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
+}
+
+.team-list {
+    list-style: none;
 }
 
 .team-employee {
@@ -136,7 +155,6 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-employee-post {
@@ -146,7 +164,6 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -159,25 +176,24 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+    text-decoration: none;
 }
-
 
 .address {
     font-style: normal;
 }
+
 .address-location {
     color: var(--main-background-color);
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .address-contacts {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 
@@ -185,12 +201,21 @@
     opacity: 0;
 }
 
+.projects-buttons {
+    list-style: none;
+}
+
 .projects-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63;
     text-align: center;
-    letter-spacing: 0.03em;
+}
+
+.projects-button:hover,
+.projects-button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 .projects-examples-title {
@@ -200,9 +225,12 @@
     letter-spacing: 0.06em;
 }
 
+.projects-examples {
+    list-style: none;
+}
+
 .projects-examples-description {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 }

@@ -95,6 +95,8 @@
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 
 .features,
@@ -196,6 +198,10 @@
     text-decoration: none;
 }
 
+.address *:hover,
+.address *:focus {
+    color: var(--accent-color);
+}
 
 .projects-title {
     opacity: 0;
@@ -210,6 +216,8 @@
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+
+    cursor: pointer;
 }
 
 .projects-button:hover,
@@ -234,3 +242,4 @@
     font-size: 16px;
     line-height: 1.88;
 }
+
